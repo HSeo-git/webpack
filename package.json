@@ -1,0 +1,38 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "This is the project for making a boilerplate for webpack",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.dev.js",
+    "build:dev": "webpack --config webpack.config.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HSeo-git/webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HSeo-git/webpack/issues"
+  },
+  "homepage": "https://github.com/HSeo-git/webpack#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "csv-loader": "^3.0.5",
+    "html-webpack-plugin": "^5.5.0",
+    "sass": "^1.54.9",
+    "sass-loader": "^13.0.2",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "xml-loader": "^1.2.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "webpack-merge": "^5.8.0"
+  }
+}
