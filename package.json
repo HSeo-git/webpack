@@ -8,7 +8,8 @@
     "build": "webpack --config webpack.config.prod.js",
     "build:dev": "webpack --config webpack.config.dev.js",
     "start": "webpack-dev-server --config webpack.config.prod.js --open",
-    "start:dev": "webpack-dev-server --config webpack.config.dev.js --open"
+    "start:dev": "webpack-dev-server --config webpack.config.dev.js --open",
+    "server": "node server.js"
   },
   "repository": {
     "type": "git",
