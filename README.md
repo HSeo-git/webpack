@@ -11,7 +11,7 @@ dev 모드 빌드: npm run build:dev
 prod 모드 실행: npm run start
 dev 모드 실행: npm run start:dev
 [server 실행]
-server.js 파일 실행
+npm run server
 ```
 ## 스펙
 ### 호환
